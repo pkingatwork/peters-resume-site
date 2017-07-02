@@ -1,0 +1,12 @@
+    <header id="main-header">
+      <a href="#"><p id="logo">{{ site.data.settings.title }}</p></a>
+      <nav id="site-navigation" aria-label="Menu">
+        <label for="toggle-mobile-menu">&#9776;</label>
+        <input id="toggle-mobile-menu" type="checkbox" />
+        <ul id="main-menu">
+        {% for item in site.data.settings.menu %}
+	      <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+        {% endfor %}
+        </ul>
+      </nav>
+    </header>

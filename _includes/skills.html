@@ -1,0 +1,11 @@
+        {% for skill in site.data.settings.skills %}
+	    <div class="skill-box">
+		  <p class="skill-label">{{ skill.name }}</p>
+		  <div class="skill-icons skill-{{ skill.value }}">
+		    {% for i in (1..10) %}
+		    <span></span>
+		    {% endfor %}
+		  </div>
+	    </div>
+	    {% endfor %}
+	    <hr>

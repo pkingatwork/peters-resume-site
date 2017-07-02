@@ -1,0 +1,8 @@
+    {% for item in site.data.settings.sections %}
+    <section id="{{ item.name }}">
+      <h1 id="{{ item.name }}-title">{{ item.name }}</h1>
+      <div id="{{ item.name }}-content">
+      {% include {{ item.name }}.html %}
+      </div>
+    </section>
+    {% endfor %}

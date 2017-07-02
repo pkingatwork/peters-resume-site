@@ -1,0 +1,9 @@
+<div id="technologies-container">
+			{% for technology in site.data.settings.technologies %}
+			<div class="technology-container">
+			  <img src="./assets/img/{{ technology.image }}" alt="{{ technology.name }} logo"/>
+			  <p>{{ technology.name }}</p>
+			</div>
+			{% endfor %}
+			</div>
+			<hr>

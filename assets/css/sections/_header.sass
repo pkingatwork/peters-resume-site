@@ -1,0 +1,36 @@
+/* HEADER SECTION */
+#main-header
+  background-color: $mainColor1
+  color: $textColor1
+  display: flex
+  justify-content: space-between
+
+/* Hide the input checkbox and the menu list by default*/
+#site-navigation #main-menu, #site-navigation ul, #site-navigation input
+  display: none
+
+/* Un-hide the main-menu when the input checkbox is ticked */
+#site-navigation > input:checked + #main-menu
+  display: inherit
+
+#logo
+  font-size: 1.7rem
+  font-weight: bold
+  padding-left: 1rem
+  
+label
+  font-size: 30px
+  font-weight: bold
+
+a
+  color: $textColor1
+  text-decoration: none
+  transition: 0.3s color
+  
+a:hover
+  color: $textColor3
+
+li
+  font-size: 1.3rem
+  list-style: none
+  padding-right: 1rem

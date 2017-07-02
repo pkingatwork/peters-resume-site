@@ -1,0 +1,19 @@
+        <div id="experience-container">
+			<div id="roles-container">
+				<h2>Roles</h2>
+				<div id="role-container">
+				{% for role in site.data.settings.roles %}
+				<p>{{ role.name }}</p>
+				{% endfor %}
+				</div>
+			</div>
+			<div id="sectors-container">
+				<h2>Sectors</h2>
+				<div id="sector-container">
+				{% for sector in site.data.settings.sectors %}
+				<p>{{ sector.name }}</p>
+				{% endfor %}
+				</div>
+			</div>
+		</div>
+		<hr>

@@ -1,0 +1,90 @@
+#-------------------------------
+# General Site Settings
+
+title: Peter's Resume Site
+email: pkingatwork@gmail.com
+
+github_username:  pkingatwork
+
+# Menu item list
+
+menu:
+  - {name: References, url: '#References'}
+  - {name: Skills, url: '#Skills'}
+  - {name: Experience, url: '#Experience'}
+  - {name: Technologies, url: '#Technologies'}
+  - {name: Contact, url: '#Contact'}
+
+seo:
+  description: 'Resume for Peter King. Software Developer, Analyst and Writer'
+  keywords: 'software, developer, programmer, resume, front-end, back-end, full stack, analyst, writer'
+  author: 'Peter King'
+
+# Main content page sections
+
+sections:
+  - {name: Introduction, url: '#References'}
+  - {name: References, url: '#References'}
+  - {name: Skills, url: '#Skills'}
+  - {name: Experience, url: '#Experience'}
+  - {name: Technologies, url: '#Technologies'}
+  - {name: Contact, url: '#Contact'}
+
+# Skills section
+
+skills:
+  - {name: Communication Written, value: '8'}
+  - {name: Communication Verbal, value: '8'}
+  - {name: Organisation, value: '8'}
+  - {name: Analysis, value: '8'}
+  - {name: Programming, value: '7'}
+  - {name: Planning, value: '8'}
+  - {name: Process Design, value: '8'}
+  - {name: Learning, value: '8'}
+  - {name: Teaching, value: '8'}
+  - {name: Graphic Design, value: '5'}
+  - {name: UX Design, value: '7'}
+
+# Experience section
+
+roles:
+  - {name: Project Manager}
+  - {name: Marketing Manager}
+  - {name: Sales Manager}
+  - {name: Team Leader}
+  - {name: Programmer}
+  - {name: Analyst}
+  - {name: Tester}
+  - {name: Analyst}
+  - {name: Technical Writer}
+
+sectors:
+  - {name: Software Development}
+  - {name: Banking}
+  - {name: Finance}
+  - {name: Regulation}
+  - {name: Security}
+  - {name: Telecommunications}
+  - {name: ERP}
+
+# Technologies section
+
+technologies:
+  - {name: 'C#', image: 'img_CSharp.png'}
+  - {name: SASS, image: 'img_SASS.png'}
+  - {name: LESS, image: 'img_LESS.png'}
+  - {name: HTML, image: 'img_HTML5.png'}
+  - {name: CSS, image: 'img_CSS3.png'}
+  - {name: Javascript, image: 'img_Javascript.png'}
+  - {name: Python, image: 'img_Python.png'}
+  - {name: PHP, image: 'img_PHP.png'}
+  - {name: RDBMS, image: 'img_RDBMS.png'}
+  
+# Contact section
+
+social:
+  - {name: eMail, url: 'mailto:pkingatwork@gmail.com', icon: 'fa-envelope-o'}
+  - {name: Google+, url: 'https://plus.google.com', icon: 'fa-google-plus'}
+  - {name: Github, url: 'https://github.com/pkingatwork', icon: 'fa-github'}
+  - {name: LinkedIn, url: 'https://www.linkedin.com/in/peter-king-2069283b/', icon: 'fa-linkedin'}
+  

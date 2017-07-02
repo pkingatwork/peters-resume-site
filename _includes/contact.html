@@ -1,0 +1,13 @@
+  <h2>Get in Touch!</h2>
+          <div id="contact-container">
+            <div id="message-container">
+              <p>Name</p>
+              <p>eMail</p>
+              <p>Comment</p>
+          </div>
+          <div id="methods-container">
+          {% for method in site.data.settings.social %}
+            <p><i class="fa {{ method.icon }}"></i>  {{ method.name }}  {{ method.url }}</p>
+          {% endfor %}
+          </div>
+        </div>
